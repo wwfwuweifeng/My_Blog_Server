@@ -1,0 +1,503 @@
+[2017-11-03 18:10:33] userLogin.py INFO :用户：admin 登录失败，原因：该用户不存在
+[2017-11-03 18:10:58] userLogin.py INFO :用户：wwf 登录失败，原因：密码错误
+[2017-11-03 18:11:01] infoServerRequest.py WARNING : 	'Session' object has no attribute 'get_session_id'
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 44--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 141--errorfunc: post()--errorsource: self.finish(UserLogin().entry(self)) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/requestHandler/login/userLogin.py--line: 15--errorfunc: entry()--errorsource: return self.judge(receiveRequest,username,pwd) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/requestHandler/login/userLogin.py--line: 24--errorfunc: judge()--errorsource: session_id = my_session.get_session_id() 
+
+[2017-11-03 18:12:06] userLogin.py INFO :用户：wwf 登录
+[2017-11-03 18:15:44] userLogin.py INFO :用户：wwf 登录
+[2017-11-03 18:24:03] userLogin.py INFO :用户：wwf 登录
+[2017-11-03 18:26:15] userLogin.py INFO :用户：wwf 登录
+[2017-11-03 20:31:51] userLogin.py INFO :用户：wwf 登录
+[2017-11-04 14:43:48] userLogin.py INFO :用户：wwf 登录
+[2017-11-04 14:43:56] userLogin.py INFO :用户：wwf 登录
+[2017-11-04 16:17:46] infoServerRequest.py WARNING : 	entry() takes 2 positional arguments but 3 were given
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 46--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 38--errorfunc: is_login()--errorsource: func(self_request,*args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 106--errorfunc: post()--errorsource: self.finish(GetUserClassify().entry(self,*args)) 
+
+[2017-11-04 16:17:54] infoServerRequest.py WARNING : 	entry() takes 2 positional arguments but 3 were given
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 46--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 38--errorfunc: is_login()--errorsource: func(self_request,*args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 106--errorfunc: post()--errorsource: self.finish(GetUserClassify().entry(self,*args)) 
+
+[2017-11-04 16:18:09] infoServerRequest.py WARNING : 	entry() takes 2 positional arguments but 3 were given
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 46--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 38--errorfunc: is_login()--errorsource: func(self_request,*args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 106--errorfunc: post()--errorsource: self.finish(GetUserClassify().entry(self,*args)) 
+
+[2017-11-04 18:40:00] userLogin.py INFO :用户：wwf 登录
+[2017-11-04 20:09:45] userLogin.py INFO :用户：wwf 登录
+[2017-11-04 20:11:14] userLogin.py INFO :用户：wwf 登录
+[2017-11-04 20:31:13] infoServerRequest.py WARNING : 	list index out of range
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 47--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 39--errorfunc: is_login()--errorsource: func(self_request,*args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 80--errorfunc: post()--errorsource: self.finish(AddOrEditorArticle().entry(self,*args)) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/requestHandler/article/addOrEditorArticle.py--line: 39--errorfunc: entry()--errorsource: return self.editorArticle(username) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/requestHandler/article/addOrEditorArticle.py--line: 67--errorfunc: editorArticle()--errorsource: if old_article[0]['articleClassify']!=self.classify: 
+
+[2017-11-04 20:33:18] infoServerRequest.py WARNING : 	list index out of range
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 47--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 39--errorfunc: is_login()--errorsource: func(self_request,*args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 80--errorfunc: post()--errorsource: self.finish(AddOrEditorArticle().entry(self,*args)) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/requestHandler/article/addOrEditorArticle.py--line: 40--errorfunc: entry()--errorsource: return self.editorArticle(username) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/requestHandler/article/addOrEditorArticle.py--line: 68--errorfunc: editorArticle()--errorsource: if old_article[0]['articleClassify']!=self.classify: 
+
+[2017-11-05 10:08:02] userLogin.py INFO :用户：wwf 登录
+[2017-11-05 11:43:45] infoServerRequest.py WARNING : 	Instance matching query does not exist:
+SQL: SELECT `t1`.`id`, `t1`.`articleName`, `t1`.`articleAuthor`, `t1`.`articleIntroduce`, `t1`.`articlePart`, `t1`.`articleEditorTime`, `t1`.`articleClassify`, `t1`.`articleReadRole`, `t1`.`articleState`, `t1`.`articleBody`, `t1`.`articleReadTimes`, `t1`.`articleUrl` FROM `blog_article` AS t1 WHERE (`t1`.`articleUrl` = %s)
+PARAMS: ['']
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 47--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 122--errorfunc: get()--errorsource: self.finish(GetArticle().entry(self)) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/requestHandler/article/getArticle.py--line: 22--errorfunc: entry()--errorsource: article_t=blogArticle.select().where(blogArticle.articleUrl==articleurl).get() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3185--errorfunc: get()--errorsource: % self.sql()) 
+
+[2017-11-05 13:41:23] userLogin.py INFO :用户：wwf 登录
+[2017-11-05 14:45:34] infoServerRequest.py WARNING : 	list index out of range
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 47--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 39--errorfunc: is_login()--errorsource: func(self_request,*args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 138--errorfunc: post()--errorsource: self.finish(SaveNotFinishArticle().entry(self,*args)) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/requestHandler/article/saveNotFinishArticle.py--line: 31--errorfunc: entry()--errorsource: return self.saveArticle(username) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/requestHandler/article/saveNotFinishArticle.py--line: 59--errorfunc: saveArticle()--errorsource: if old_article[0]['articleName'] !=self.name: 
+
+[2017-11-05 15:07:09] infoServerRequest.py WARNING : 	list index out of range
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 47--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 39--errorfunc: is_login()--errorsource: func(self_request,*args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 127--errorfunc: post()--errorsource: self.finish(GetArticle().entry(self,*args)) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/requestHandler/article/getArticle.py--line: 35--errorfunc: entry()--errorsource: article_t=article_t[0] 
+
+[2017-11-05 15:09:22] infoServerRequest.py WARNING : 	Instance matching query does not exist:
+SQL: SELECT `t1`.`id`, `t1`.`articleName`, `t1`.`articleAuthor`, `t1`.`articleIntroduce`, `t1`.`articlePart`, `t1`.`articleEditorTime`, `t1`.`articleClassify`, `t1`.`articleReadRole`, `t1`.`articleState`, `t1`.`articleBody`, `t1`.`articleReadTimes`, `t1`.`articleUrl` FROM `blog_article` AS t1 WHERE (`t1`.`articleUrl` = %s)
+PARAMS: ['17584415']
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 47--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 122--errorfunc: get()--errorsource: self.finish(GetArticle().entry(self)) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/requestHandler/article/getArticle.py--line: 22--errorfunc: entry()--errorsource: article_t=blogArticle.select().where(blogArticle.articleUrl==articleurl).get() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3185--errorfunc: get()--errorsource: % self.sql()) 
+
+[2017-11-05 15:10:20] infoServerRequest.py WARNING : 	Instance matching query does not exist:
+SQL: SELECT `t1`.`id`, `t1`.`articleName`, `t1`.`articleAuthor`, `t1`.`articleIntroduce`, `t1`.`articlePart`, `t1`.`articleEditorTime`, `t1`.`articleClassify`, `t1`.`articleReadRole`, `t1`.`articleState`, `t1`.`articleBody`, `t1`.`articleReadTimes`, `t1`.`articleUrl` FROM `blog_article` AS t1 WHERE (`t1`.`articleUrl` = %s)
+PARAMS: ['17584415']
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 47--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 122--errorfunc: get()--errorsource: self.finish(GetArticle().entry(self)) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/requestHandler/article/getArticle.py--line: 22--errorfunc: entry()--errorsource: article_t=blogArticle.select().where(blogArticle.articleUrl==articleurl).get() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3185--errorfunc: get()--errorsource: % self.sql()) 
+
+[2017-11-05 15:11:01] infoServerRequest.py WARNING : 	Instance matching query does not exist:
+SQL: SELECT `t1`.`id`, `t1`.`articleName`, `t1`.`articleAuthor`, `t1`.`articleIntroduce`, `t1`.`articlePart`, `t1`.`articleEditorTime`, `t1`.`articleClassify`, `t1`.`articleReadRole`, `t1`.`articleState`, `t1`.`articleBody`, `t1`.`articleReadTimes`, `t1`.`articleUrl` FROM `blog_article` AS t1 WHERE (`t1`.`articleUrl` = %s)
+PARAMS: ['17584415']
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 47--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 122--errorfunc: get()--errorsource: self.finish(GetArticle().entry(self)) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/requestHandler/article/getArticle.py--line: 22--errorfunc: entry()--errorsource: article_t=blogArticle.select().where(blogArticle.articleUrl==articleurl).get() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3185--errorfunc: get()--errorsource: % self.sql()) 
+
+[2017-11-05 15:14:55] infoServerRequest.py WARNING : 	Instance matching query does not exist:
+SQL: SELECT `t1`.`id`, `t1`.`articleName`, `t1`.`articleAuthor`, `t1`.`articleIntroduce`, `t1`.`articlePart`, `t1`.`articleEditorTime`, `t1`.`articleClassify`, `t1`.`articleReadRole`, `t1`.`articleState`, `t1`.`articleBody`, `t1`.`articleReadTimes`, `t1`.`articleUrl` FROM `blog_article` AS t1 WHERE (`t1`.`articleUrl` = %s)
+PARAMS: ['17584415']
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 47--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 122--errorfunc: get()--errorsource: self.finish(GetArticle().entry(self)) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/requestHandler/article/getArticle.py--line: 22--errorfunc: entry()--errorsource: article_t=blogArticle.select().where(blogArticle.articleUrl==articleurl).get() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3185--errorfunc: get()--errorsource: % self.sql()) 
+
+[2017-11-05 15:15:33] infoServerRequest.py WARNING : 	Instance matching query does not exist:
+SQL: SELECT `t1`.`id`, `t1`.`articleName`, `t1`.`articleAuthor`, `t1`.`articleIntroduce`, `t1`.`articlePart`, `t1`.`articleEditorTime`, `t1`.`articleClassify`, `t1`.`articleReadRole`, `t1`.`articleState`, `t1`.`articleBody`, `t1`.`articleReadTimes`, `t1`.`articleUrl` FROM `blog_article` AS t1 WHERE (`t1`.`articleUrl` = %s)
+PARAMS: ['17584415']
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 47--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 122--errorfunc: get()--errorsource: self.finish(GetArticle().entry(self)) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/requestHandler/article/getArticle.py--line: 22--errorfunc: entry()--errorsource: article_t=blogArticle.select().where(blogArticle.articleUrl==articleurl).get() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3185--errorfunc: get()--errorsource: % self.sql()) 
+
+[2017-11-05 15:16:18] infoServerRequest.py WARNING : 	Instance matching query does not exist:
+SQL: SELECT `t1`.`id`, `t1`.`articleName`, `t1`.`articleAuthor`, `t1`.`articleIntroduce`, `t1`.`articlePart`, `t1`.`articleEditorTime`, `t1`.`articleClassify`, `t1`.`articleReadRole`, `t1`.`articleState`, `t1`.`articleBody`, `t1`.`articleReadTimes`, `t1`.`articleUrl` FROM `blog_article` AS t1 WHERE (`t1`.`articleUrl` = %s)
+PARAMS: ['17584415']
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 47--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 122--errorfunc: get()--errorsource: self.finish(GetArticle().entry(self)) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/requestHandler/article/getArticle.py--line: 22--errorfunc: entry()--errorsource: article_t=blogArticle.select().where(blogArticle.articleUrl==articleurl).get() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3185--errorfunc: get()--errorsource: % self.sql()) 
+
+[2017-11-05 18:55:49] infoServerRequest.py WARNING : 	invalid literal for int() with base 10: '所有人'
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 47--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 39--errorfunc: is_login()--errorsource: func(self_request,*args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 80--errorfunc: post()--errorsource: self.finish(AddOrEditorArticle().entry(self,*args)) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/requestHandler/article/addOrEditorArticle.py--line: 39--errorfunc: entry()--errorsource: return self.editorArticle(username) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/requestHandler/article/addOrEditorArticle.py--line: 78--errorfunc: editorArticle()--errorsource: 'articleReadRole':self.readrole,'articleState':int(self.state),'articleBody':self.body}).where(blogArticle.articleUrl==self.articleurl).execute() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3400--errorfunc: execute()--errorsource: return self.database.rows_affected(self._execute()) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 2911--errorfunc: _execute()--errorsource: sql, params = self.sql() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3392--errorfunc: sql()--errorsource: return self.compiler().generate_update(self) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 2057--errorfunc: generate_update()--errorsource: return self.build_query(clauses, alias_map) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 1912--errorfunc: build_query()--errorsource: return self.parse_node(Clause(*clauses), alias_map) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 1865--errorfunc: parse_node()--errorsource: sql, params, unknown = self._parse(node, alias_map, conv) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 1831--errorfunc: _parse()--errorsource: sql, params = self._parse_map[node_type](node, alias_map, conv) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 1757--errorfunc: _parse_clause()--errorsource: node.nodes, alias_map, conv, node.glue) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 1890--errorfunc: parse_node_list()--errorsource: node_sql, node_params = self.parse_node(node, alias_map, conv) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 1865--errorfunc: parse_node()--errorsource: sql, params, unknown = self._parse(node, alias_map, conv) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 1831--errorfunc: _parse()--errorsource: sql, params = self._parse_map[node_type](node, alias_map, conv) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 1757--errorfunc: _parse_clause()--errorsource: node.nodes, alias_map, conv, node.glue) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 1890--errorfunc: parse_node_list()--errorsource: node_sql, node_params = self.parse_node(node, alias_map, conv) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 1865--errorfunc: parse_node()--errorsource: sql, params, unknown = self._parse(node, alias_map, conv) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 1831--errorfunc: _parse()--errorsource: sql, params = self._parse_map[node_type](node, alias_map, conv) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 1728--errorfunc: _parse_expression()--errorsource: rhs, rparams = self.parse_node(node.rhs, alias_map, conv) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 1865--errorfunc: parse_node()--errorsource: sql, params, unknown = self._parse(node, alias_map, conv) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 1831--errorfunc: _parse()--errorsource: sql, params = self._parse_map[node_type](node, alias_map, conv) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 1744--errorfunc: _parse_param()--errorsource: return self.parse_node(node.adapt(node.value), alias_map, conv) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 1014--errorfunc: db_value()--errorsource: return value if value is None else self.coerce(value) 
+
+[2017-11-05 20:41:26] userLogin.py INFO :用户：wwf 登录
+[2017-11-06 15:33:01] userLogin.py INFO :用户：wwf 登录
+[2017-11-06 15:34:04] userLogin.py INFO :用户：wwf 登录
+[2017-11-06 15:34:35] userLogin.py INFO :用户：wwf 登录
+[2017-11-06 15:44:42] userLogin.py INFO :用户：wwf 登录
+[2017-11-06 16:25:21] userLogin.py INFO :用户：wwf 登录
+[2017-11-06 16:55:25] infoServerRequest.py WARNING : 	'blogClassify' object has no attribute 'blogClassify'
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 48--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 40--errorfunc: is_login()--errorsource: func(self_request,*args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 118--errorfunc: post()--errorsource: self.finish(DelArticle().entry(self,*args)) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/requestHandler/article/delArticle.py--line: 18--errorfunc: entry()--errorsource: classify.blogClassify.articleNum=classify.blogClassify.articleNum-1 
+
+[2017-11-06 16:57:28] infoServerRequest.py WARNING : 	(1364, "Field 'userName' doesn't have a default value")
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 48--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 40--errorfunc: is_login()--errorsource: func(self_request,*args) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/infoServerRequest.py--line: 118--errorfunc: post()--errorsource: self.finish(DelArticle().entry(self,*args)) 
+	file: /home/wwf/PyCharmProject/myBlogServer/informationServer/requestHandler/article/delArticle.py--line: 19--errorfunc: entry()--errorsource: classify.save() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 5108--errorfunc: save()--errorsource: pk_from_cursor = self.insert(**field_dict).execute() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3526--errorfunc: execute()--errorsource: cursor = self._execute() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 2912--errorfunc: _execute()--errorsource: return self.database.execute_sql(sql, params, self.require_commit) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3775--errorfunc: execute_sql()--errorsource: self.commit() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3598--errorfunc: __exit__()--errorsource: reraise(new_type, new_type(*exc_args), traceback) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 135--errorfunc: reraise()--errorsource: raise value.with_traceback(tb) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3768--errorfunc: execute_sql()--errorsource: cursor.execute(sql, params or ()) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/cursors.py--line: 166--errorfunc: execute()--errorsource: result = self._query(query) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/cursors.py--line: 322--errorfunc: _query()--errorsource: conn.query(q) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 856--errorfunc: query()--errorsource: self._affected_rows = self._read_query_result(unbuffered=unbuffered) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1057--errorfunc: _read_query_result()--errorsource: result.read() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1340--errorfunc: read()--errorsource: first_packet = self.connection._read_packet() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1014--errorfunc: _read_packet()--errorsource: packet.check_error() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 393--errorfunc: check_error()--errorsource: err.raise_mysql_exception(self._data) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/err.py--line: 107--errorfunc: raise_mysql_exception()--errorsource: raise errorclass(errno, errval) 
+
+[2017-11-06 20:17:21] infoServerRequest.py WARNING : 	(1054, "Unknown column 't1.articleUrl' in 'field list'")
+	file: /home/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 48--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 91--errorfunc: get()--errorsource: self.finish(GetArticleList().entry()) 
+	file: /home/myBlogServer/informationServer/requestHandler/article/getArticleList.py--line: 20--errorfunc: entry()--errorsource: blogArticle.articleUrl).where(blogArticle.articleState==1,blogArticle.articleReadRole==1)) 
+	file: /home/myBlogServer/informationServer/infoOrm.py--line: 33--errorfunc: applyFunc()--errorsource: return func(cls, *args, **kwargs) 
+	file: /home/myBlogServer/informationServer/infoOrm.py--line: 50--errorfunc: returnList()--errorsource: for con in Model: 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3281--errorfunc: __iter__()--errorsource: return iter(self.execute()) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3274--errorfunc: execute()--errorsource: self._qr = ResultWrapper(model_class, self._execute(), query_meta) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 2939--errorfunc: _execute()--errorsource: return self.database.execute_sql(sql, params, self.require_commit) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3837--errorfunc: execute_sql()--errorsource: self.commit() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3656--errorfunc: __exit__()--errorsource: reraise(new_type, new_type(*exc_args), traceback) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 135--errorfunc: reraise()--errorsource: raise value.with_traceback(tb) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3830--errorfunc: execute_sql()--errorsource: cursor.execute(sql, params or ()) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/cursors.py--line: 166--errorfunc: execute()--errorsource: result = self._query(query) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/cursors.py--line: 322--errorfunc: _query()--errorsource: conn.query(q) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 856--errorfunc: query()--errorsource: self._affected_rows = self._read_query_result(unbuffered=unbuffered) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1057--errorfunc: _read_query_result()--errorsource: result.read() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1340--errorfunc: read()--errorsource: first_packet = self.connection._read_packet() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1014--errorfunc: _read_packet()--errorsource: packet.check_error() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 393--errorfunc: check_error()--errorsource: err.raise_mysql_exception(self._data) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/err.py--line: 107--errorfunc: raise_mysql_exception()--errorsource: raise errorclass(errno, errval) 
+
+[2017-11-06 20:17:21] infoServerRequest.py WARNING : 	(1054, "Unknown column 't1.articleUrl' in 'field list'")
+	file: /home/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 48--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 133--errorfunc: get()--errorsource: self.finish(GetHotArticleList().entry()) 
+	file: /home/myBlogServer/informationServer/requestHandler/article/getHotArticleList.py--line: 11--errorfunc: entry()--errorsource: blogArticle.articleState == 1, blogArticle.articleReadRole == 1).order_by(-blogArticle.articleReadTimes,-blogArticle.articleEditorTime)) 
+	file: /home/myBlogServer/informationServer/infoOrm.py--line: 33--errorfunc: applyFunc()--errorsource: return func(cls, *args, **kwargs) 
+	file: /home/myBlogServer/informationServer/infoOrm.py--line: 50--errorfunc: returnList()--errorsource: for con in Model: 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3281--errorfunc: __iter__()--errorsource: return iter(self.execute()) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3274--errorfunc: execute()--errorsource: self._qr = ResultWrapper(model_class, self._execute(), query_meta) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 2939--errorfunc: _execute()--errorsource: return self.database.execute_sql(sql, params, self.require_commit) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3837--errorfunc: execute_sql()--errorsource: self.commit() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3656--errorfunc: __exit__()--errorsource: reraise(new_type, new_type(*exc_args), traceback) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 135--errorfunc: reraise()--errorsource: raise value.with_traceback(tb) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3830--errorfunc: execute_sql()--errorsource: cursor.execute(sql, params or ()) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/cursors.py--line: 166--errorfunc: execute()--errorsource: result = self._query(query) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/cursors.py--line: 322--errorfunc: _query()--errorsource: conn.query(q) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 856--errorfunc: query()--errorsource: self._affected_rows = self._read_query_result(unbuffered=unbuffered) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1057--errorfunc: _read_query_result()--errorsource: result.read() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1340--errorfunc: read()--errorsource: first_packet = self.connection._read_packet() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1014--errorfunc: _read_packet()--errorsource: packet.check_error() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 393--errorfunc: check_error()--errorsource: err.raise_mysql_exception(self._data) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/err.py--line: 107--errorfunc: raise_mysql_exception()--errorsource: raise errorclass(errno, errval) 
+
+[2017-11-06 20:17:32] infoServerRequest.py WARNING : 	(1054, "Unknown column 't1.articleUrl' in 'field list'")
+	file: /home/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 48--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 91--errorfunc: get()--errorsource: self.finish(GetArticleList().entry()) 
+	file: /home/myBlogServer/informationServer/requestHandler/article/getArticleList.py--line: 20--errorfunc: entry()--errorsource: blogArticle.articleUrl).where(blogArticle.articleState==1,blogArticle.articleReadRole==1)) 
+	file: /home/myBlogServer/informationServer/infoOrm.py--line: 33--errorfunc: applyFunc()--errorsource: return func(cls, *args, **kwargs) 
+	file: /home/myBlogServer/informationServer/infoOrm.py--line: 50--errorfunc: returnList()--errorsource: for con in Model: 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3281--errorfunc: __iter__()--errorsource: return iter(self.execute()) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3274--errorfunc: execute()--errorsource: self._qr = ResultWrapper(model_class, self._execute(), query_meta) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 2939--errorfunc: _execute()--errorsource: return self.database.execute_sql(sql, params, self.require_commit) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3837--errorfunc: execute_sql()--errorsource: self.commit() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3656--errorfunc: __exit__()--errorsource: reraise(new_type, new_type(*exc_args), traceback) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 135--errorfunc: reraise()--errorsource: raise value.with_traceback(tb) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3830--errorfunc: execute_sql()--errorsource: cursor.execute(sql, params or ()) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/cursors.py--line: 166--errorfunc: execute()--errorsource: result = self._query(query) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/cursors.py--line: 322--errorfunc: _query()--errorsource: conn.query(q) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 856--errorfunc: query()--errorsource: self._affected_rows = self._read_query_result(unbuffered=unbuffered) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1057--errorfunc: _read_query_result()--errorsource: result.read() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1340--errorfunc: read()--errorsource: first_packet = self.connection._read_packet() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1014--errorfunc: _read_packet()--errorsource: packet.check_error() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 393--errorfunc: check_error()--errorsource: err.raise_mysql_exception(self._data) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/err.py--line: 107--errorfunc: raise_mysql_exception()--errorsource: raise errorclass(errno, errval) 
+
+[2017-11-06 20:17:32] infoServerRequest.py WARNING : 	(1054, "Unknown column 't1.articleUrl' in 'field list'")
+	file: /home/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 48--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 133--errorfunc: get()--errorsource: self.finish(GetHotArticleList().entry()) 
+	file: /home/myBlogServer/informationServer/requestHandler/article/getHotArticleList.py--line: 11--errorfunc: entry()--errorsource: blogArticle.articleState == 1, blogArticle.articleReadRole == 1).order_by(-blogArticle.articleReadTimes,-blogArticle.articleEditorTime)) 
+	file: /home/myBlogServer/informationServer/infoOrm.py--line: 33--errorfunc: applyFunc()--errorsource: return func(cls, *args, **kwargs) 
+	file: /home/myBlogServer/informationServer/infoOrm.py--line: 50--errorfunc: returnList()--errorsource: for con in Model: 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3281--errorfunc: __iter__()--errorsource: return iter(self.execute()) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3274--errorfunc: execute()--errorsource: self._qr = ResultWrapper(model_class, self._execute(), query_meta) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 2939--errorfunc: _execute()--errorsource: return self.database.execute_sql(sql, params, self.require_commit) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3837--errorfunc: execute_sql()--errorsource: self.commit() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3656--errorfunc: __exit__()--errorsource: reraise(new_type, new_type(*exc_args), traceback) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 135--errorfunc: reraise()--errorsource: raise value.with_traceback(tb) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3830--errorfunc: execute_sql()--errorsource: cursor.execute(sql, params or ()) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/cursors.py--line: 166--errorfunc: execute()--errorsource: result = self._query(query) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/cursors.py--line: 322--errorfunc: _query()--errorsource: conn.query(q) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 856--errorfunc: query()--errorsource: self._affected_rows = self._read_query_result(unbuffered=unbuffered) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1057--errorfunc: _read_query_result()--errorsource: result.read() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1340--errorfunc: read()--errorsource: first_packet = self.connection._read_packet() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1014--errorfunc: _read_packet()--errorsource: packet.check_error() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 393--errorfunc: check_error()--errorsource: err.raise_mysql_exception(self._data) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/err.py--line: 107--errorfunc: raise_mysql_exception()--errorsource: raise errorclass(errno, errval) 
+
+[2017-11-06 20:17:44] infoServerRequest.py WARNING : 	(1054, "Unknown column 't1.articleUrl' in 'field list'")
+	file: /home/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 48--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 91--errorfunc: get()--errorsource: self.finish(GetArticleList().entry()) 
+	file: /home/myBlogServer/informationServer/requestHandler/article/getArticleList.py--line: 20--errorfunc: entry()--errorsource: blogArticle.articleUrl).where(blogArticle.articleState==1,blogArticle.articleReadRole==1)) 
+	file: /home/myBlogServer/informationServer/infoOrm.py--line: 33--errorfunc: applyFunc()--errorsource: return func(cls, *args, **kwargs) 
+	file: /home/myBlogServer/informationServer/infoOrm.py--line: 50--errorfunc: returnList()--errorsource: for con in Model: 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3281--errorfunc: __iter__()--errorsource: return iter(self.execute()) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3274--errorfunc: execute()--errorsource: self._qr = ResultWrapper(model_class, self._execute(), query_meta) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 2939--errorfunc: _execute()--errorsource: return self.database.execute_sql(sql, params, self.require_commit) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3837--errorfunc: execute_sql()--errorsource: self.commit() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3656--errorfunc: __exit__()--errorsource: reraise(new_type, new_type(*exc_args), traceback) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 135--errorfunc: reraise()--errorsource: raise value.with_traceback(tb) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3830--errorfunc: execute_sql()--errorsource: cursor.execute(sql, params or ()) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/cursors.py--line: 166--errorfunc: execute()--errorsource: result = self._query(query) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/cursors.py--line: 322--errorfunc: _query()--errorsource: conn.query(q) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 856--errorfunc: query()--errorsource: self._affected_rows = self._read_query_result(unbuffered=unbuffered) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1057--errorfunc: _read_query_result()--errorsource: result.read() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1340--errorfunc: read()--errorsource: first_packet = self.connection._read_packet() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1014--errorfunc: _read_packet()--errorsource: packet.check_error() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 393--errorfunc: check_error()--errorsource: err.raise_mysql_exception(self._data) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/err.py--line: 107--errorfunc: raise_mysql_exception()--errorsource: raise errorclass(errno, errval) 
+
+[2017-11-06 20:17:44] infoServerRequest.py WARNING : 	(1054, "Unknown column 't1.articleUrl' in 'field list'")
+	file: /home/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 48--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 133--errorfunc: get()--errorsource: self.finish(GetHotArticleList().entry()) 
+	file: /home/myBlogServer/informationServer/requestHandler/article/getHotArticleList.py--line: 11--errorfunc: entry()--errorsource: blogArticle.articleState == 1, blogArticle.articleReadRole == 1).order_by(-blogArticle.articleReadTimes,-blogArticle.articleEditorTime)) 
+	file: /home/myBlogServer/informationServer/infoOrm.py--line: 33--errorfunc: applyFunc()--errorsource: return func(cls, *args, **kwargs) 
+	file: /home/myBlogServer/informationServer/infoOrm.py--line: 50--errorfunc: returnList()--errorsource: for con in Model: 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3281--errorfunc: __iter__()--errorsource: return iter(self.execute()) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3274--errorfunc: execute()--errorsource: self._qr = ResultWrapper(model_class, self._execute(), query_meta) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 2939--errorfunc: _execute()--errorsource: return self.database.execute_sql(sql, params, self.require_commit) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3837--errorfunc: execute_sql()--errorsource: self.commit() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3656--errorfunc: __exit__()--errorsource: reraise(new_type, new_type(*exc_args), traceback) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 135--errorfunc: reraise()--errorsource: raise value.with_traceback(tb) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3830--errorfunc: execute_sql()--errorsource: cursor.execute(sql, params or ()) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/cursors.py--line: 166--errorfunc: execute()--errorsource: result = self._query(query) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/cursors.py--line: 322--errorfunc: _query()--errorsource: conn.query(q) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 856--errorfunc: query()--errorsource: self._affected_rows = self._read_query_result(unbuffered=unbuffered) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1057--errorfunc: _read_query_result()--errorsource: result.read() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1340--errorfunc: read()--errorsource: first_packet = self.connection._read_packet() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1014--errorfunc: _read_packet()--errorsource: packet.check_error() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 393--errorfunc: check_error()--errorsource: err.raise_mysql_exception(self._data) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/err.py--line: 107--errorfunc: raise_mysql_exception()--errorsource: raise errorclass(errno, errval) 
+
+[2017-11-06 20:43:14] infoServerRequest.py WARNING : 	(1366, "Incorrect string value: '\\xE6\\xAD\\xA3\\xE5\\xB8\\xB8' for column 'userRole' at row 1")
+	file: /home/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 48--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 155--errorfunc: post()--errorsource: self.finish(UserLogin().entry(self)) 
+	file: /home/myBlogServer/informationServer/requestHandler/login/userLogin.py--line: 16--errorfunc: entry()--errorsource: AddOneUser().entry('firstadd') 
+	file: /home/myBlogServer/informationServer/requestHandler/user/addOneUser.py--line: 21--errorfunc: entry()--errorsource: "userImgPart":imgpart,"userRole":userRole,'userCollectionArticle':str([]),'userCollectionBlog':str([])}) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 4977--errorfunc: create()--errorsource: inst.save(force_insert=True) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 5170--errorfunc: save()--errorsource: pk_from_cursor = self.insert(**field_dict).execute() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3584--errorfunc: execute()--errorsource: cursor = self._execute() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 2939--errorfunc: _execute()--errorsource: return self.database.execute_sql(sql, params, self.require_commit) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3837--errorfunc: execute_sql()--errorsource: self.commit() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3656--errorfunc: __exit__()--errorsource: reraise(new_type, new_type(*exc_args), traceback) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 135--errorfunc: reraise()--errorsource: raise value.with_traceback(tb) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3830--errorfunc: execute_sql()--errorsource: cursor.execute(sql, params or ()) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/cursors.py--line: 166--errorfunc: execute()--errorsource: result = self._query(query) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/cursors.py--line: 322--errorfunc: _query()--errorsource: conn.query(q) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 856--errorfunc: query()--errorsource: self._affected_rows = self._read_query_result(unbuffered=unbuffered) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1057--errorfunc: _read_query_result()--errorsource: result.read() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1340--errorfunc: read()--errorsource: first_packet = self.connection._read_packet() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1014--errorfunc: _read_packet()--errorsource: packet.check_error() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 393--errorfunc: check_error()--errorsource: err.raise_mysql_exception(self._data) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/err.py--line: 107--errorfunc: raise_mysql_exception()--errorsource: raise errorclass(errno, errval) 
+
+[2017-11-06 21:23:02] userLogin.py INFO :用户：wwf 登录
+[2017-11-06 21:55:34] userLogin.py INFO :用户：wwf 登录
+[2017-11-06 22:43:17] userLogin.py INFO :用户：wwf 登录
+[2017-11-06 22:49:09] infoServerRequest.py WARNING : 	(1366, "Incorrect string value: '\\xF0\\x9F\\x98\\x82\\xE6\\xB5...' for column 'articleBody' at row 1")
+	file: /home/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 48--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 40--errorfunc: is_login()--errorsource: func(self_request,*args) 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 81--errorfunc: post()--errorsource: self.finish(AddOrEditorArticle().entry(self,*args)) 
+	file: /home/myBlogServer/informationServer/requestHandler/article/addOrEditorArticle.py--line: 37--errorfunc: entry()--errorsource: return self.addArticle(username) 
+	file: /home/myBlogServer/informationServer/requestHandler/article/addOrEditorArticle.py--line: 58--errorfunc: addArticle()--errorsource: 'articleReadTimes':0,'articleUrl':url}) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 4977--errorfunc: create()--errorsource: inst.save(force_insert=True) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 5170--errorfunc: save()--errorsource: pk_from_cursor = self.insert(**field_dict).execute() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3584--errorfunc: execute()--errorsource: cursor = self._execute() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 2939--errorfunc: _execute()--errorsource: return self.database.execute_sql(sql, params, self.require_commit) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3837--errorfunc: execute_sql()--errorsource: self.commit() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3656--errorfunc: __exit__()--errorsource: reraise(new_type, new_type(*exc_args), traceback) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 135--errorfunc: reraise()--errorsource: raise value.with_traceback(tb) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3830--errorfunc: execute_sql()--errorsource: cursor.execute(sql, params or ()) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/cursors.py--line: 166--errorfunc: execute()--errorsource: result = self._query(query) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/cursors.py--line: 322--errorfunc: _query()--errorsource: conn.query(q) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 856--errorfunc: query()--errorsource: self._affected_rows = self._read_query_result(unbuffered=unbuffered) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1057--errorfunc: _read_query_result()--errorsource: result.read() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1340--errorfunc: read()--errorsource: first_packet = self.connection._read_packet() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1014--errorfunc: _read_packet()--errorsource: packet.check_error() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 393--errorfunc: check_error()--errorsource: err.raise_mysql_exception(self._data) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/err.py--line: 107--errorfunc: raise_mysql_exception()--errorsource: raise errorclass(errno, errval) 
+
+[2017-11-06 22:49:16] infoServerRequest.py WARNING : 	(1366, "Incorrect string value: '\\xF0\\x9F\\x98\\x82\\xE6\\xB5...' for column 'articleBody' at row 1")
+	file: /home/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 48--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 40--errorfunc: is_login()--errorsource: func(self_request,*args) 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 81--errorfunc: post()--errorsource: self.finish(AddOrEditorArticle().entry(self,*args)) 
+	file: /home/myBlogServer/informationServer/requestHandler/article/addOrEditorArticle.py--line: 37--errorfunc: entry()--errorsource: return self.addArticle(username) 
+	file: /home/myBlogServer/informationServer/requestHandler/article/addOrEditorArticle.py--line: 58--errorfunc: addArticle()--errorsource: 'articleReadTimes':0,'articleUrl':url}) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 4977--errorfunc: create()--errorsource: inst.save(force_insert=True) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 5170--errorfunc: save()--errorsource: pk_from_cursor = self.insert(**field_dict).execute() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3584--errorfunc: execute()--errorsource: cursor = self._execute() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 2939--errorfunc: _execute()--errorsource: return self.database.execute_sql(sql, params, self.require_commit) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3837--errorfunc: execute_sql()--errorsource: self.commit() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3656--errorfunc: __exit__()--errorsource: reraise(new_type, new_type(*exc_args), traceback) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 135--errorfunc: reraise()--errorsource: raise value.with_traceback(tb) 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3830--errorfunc: execute_sql()--errorsource: cursor.execute(sql, params or ()) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/cursors.py--line: 166--errorfunc: execute()--errorsource: result = self._query(query) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/cursors.py--line: 322--errorfunc: _query()--errorsource: conn.query(q) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 856--errorfunc: query()--errorsource: self._affected_rows = self._read_query_result(unbuffered=unbuffered) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1057--errorfunc: _read_query_result()--errorsource: result.read() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1340--errorfunc: read()--errorsource: first_packet = self.connection._read_packet() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 1014--errorfunc: _read_packet()--errorsource: packet.check_error() 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/connections.py--line: 393--errorfunc: check_error()--errorsource: err.raise_mysql_exception(self._data) 
+	file: /usr/local/lib/python3.5/dist-packages/pymysql/err.py--line: 107--errorfunc: raise_mysql_exception()--errorsource: raise errorclass(errno, errval) 
+
+[2017-11-08 16:12:29] userLogin.py INFO :用户：wwf 登录
+[2017-11-09 15:03:34] userLogin.py INFO :用户：wwf 登录
+[2017-11-10 17:40:16] userLogin.py INFO :用户：wwf 登录
+[2017-11-11 13:48:01] userLogin.py INFO :用户：wwf 登录
+[2017-11-13 18:30:57] userLogin.py INFO :用户：wwf 登录
+[2017-11-15 19:06:06] userLogin.py INFO :用户：wwf 登录
+[2017-11-15 21:42:03] userLogin.py INFO :用户：wwf 登录
+[2017-11-17 16:28:34] userLogin.py INFO :用户：wwf 登录
+[2017-11-18 15:29:10] userLogin.py INFO :用户：wwf 登录
+[2017-11-18 20:06:44] userLogin.py INFO :用户：wwf 登录
+[2017-11-18 20:35:26] userLogin.py INFO :用户：wwf 登录
+[2017-11-18 20:44:54] userLogin.py INFO :用户：wwf 登录
+[2017-11-19 15:35:38] userLogin.py INFO :用户：wwf 登录
+[2017-11-20 16:09:21] userLogin.py INFO :用户：wwf 登录
+[2017-11-20 20:10:17] infoServerRequest.py WARNING : 	Instance matching query does not exist:
+SQL: SELECT `t1`.`id`, `t1`.`userName`, `t1`.`belongPart`, `t1`.`classifyName`, `t1`.`createDate`, `t1`.`articleNum` FROM `blog_classify` AS t1 WHERE ((`t1`.`userName` = %s) AND (`t1`.`classifyName` = %s))
+PARAMS: ['wwf', '未选择']
+	file: /home/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 48--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 40--errorfunc: is_login()--errorsource: func(self_request,*args) 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 118--errorfunc: post()--errorsource: self.finish(DelArticle().entry(self,*args)) 
+	file: /home/myBlogServer/informationServer/requestHandler/article/delArticle.py--line: 17--errorfunc: entry()--errorsource: classify=blogClassify.select().where(blogClassify.userName==username,blogClassify.classifyName==article[0]['articleClassify']).get() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3224--errorfunc: get()--errorsource: % self.sql()) 
+
+[2017-11-20 20:10:17] infoServerRequest.py WARNING : 	Instance matching query does not exist:
+SQL: SELECT `t1`.`id`, `t1`.`userName`, `t1`.`belongPart`, `t1`.`classifyName`, `t1`.`createDate`, `t1`.`articleNum` FROM `blog_classify` AS t1 WHERE ((`t1`.`userName` = %s) AND (`t1`.`classifyName` = %s))
+PARAMS: ['wwf', '未选择']
+	file: /home/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 48--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 40--errorfunc: is_login()--errorsource: func(self_request,*args) 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 118--errorfunc: post()--errorsource: self.finish(DelArticle().entry(self,*args)) 
+	file: /home/myBlogServer/informationServer/requestHandler/article/delArticle.py--line: 17--errorfunc: entry()--errorsource: classify=blogClassify.select().where(blogClassify.userName==username,blogClassify.classifyName==article[0]['articleClassify']).get() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3224--errorfunc: get()--errorsource: % self.sql()) 
+
+[2017-11-20 20:10:25] infoServerRequest.py WARNING : 	Instance matching query does not exist:
+SQL: SELECT `t1`.`id`, `t1`.`userName`, `t1`.`belongPart`, `t1`.`classifyName`, `t1`.`createDate`, `t1`.`articleNum` FROM `blog_classify` AS t1 WHERE ((`t1`.`userName` = %s) AND (`t1`.`classifyName` = %s))
+PARAMS: ['wwf', '未选择']
+	file: /home/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 48--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 40--errorfunc: is_login()--errorsource: func(self_request,*args) 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 118--errorfunc: post()--errorsource: self.finish(DelArticle().entry(self,*args)) 
+	file: /home/myBlogServer/informationServer/requestHandler/article/delArticle.py--line: 17--errorfunc: entry()--errorsource: classify=blogClassify.select().where(blogClassify.userName==username,blogClassify.classifyName==article[0]['articleClassify']).get() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3224--errorfunc: get()--errorsource: % self.sql()) 
+
+[2017-11-20 20:10:42] infoServerRequest.py WARNING : 	Instance matching query does not exist:
+SQL: SELECT `t1`.`id`, `t1`.`userName`, `t1`.`belongPart`, `t1`.`classifyName`, `t1`.`createDate`, `t1`.`articleNum` FROM `blog_classify` AS t1 WHERE ((`t1`.`userName` = %s) AND (`t1`.`classifyName` = %s))
+PARAMS: ['wwf', '未选择']
+	file: /home/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 48--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 40--errorfunc: is_login()--errorsource: func(self_request,*args) 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 118--errorfunc: post()--errorsource: self.finish(DelArticle().entry(self,*args)) 
+	file: /home/myBlogServer/informationServer/requestHandler/article/delArticle.py--line: 17--errorfunc: entry()--errorsource: classify=blogClassify.select().where(blogClassify.userName==username,blogClassify.classifyName==article[0]['articleClassify']).get() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3224--errorfunc: get()--errorsource: % self.sql()) 
+
+[2017-11-21 19:11:53] userLogin.py INFO :用户：wwf 登录
+[2017-11-22 16:35:25] userLogin.py INFO :用户：wwf 登录
+[2017-11-22 18:45:58] infoServerRequest.py WARNING : 	Instance matching query does not exist:
+SQL: SELECT `t1`.`id`, `t1`.`userName`, `t1`.`belongPart`, `t1`.`classifyName`, `t1`.`createDate`, `t1`.`articleNum` FROM `blog_classify` AS t1 WHERE ((`t1`.`userName` = %s) AND (`t1`.`classifyName` = %s))
+PARAMS: ['wwf', '未选择']
+	file: /home/myBlogServer/informationServer/infoLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 48--errorfunc: diyPost()--errorsource: post(self_request, *args) 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 40--errorfunc: is_login()--errorsource: func(self_request,*args) 
+	file: /home/myBlogServer/informationServer/infoServerRequest.py--line: 118--errorfunc: post()--errorsource: self.finish(DelArticle().entry(self,*args)) 
+	file: /home/myBlogServer/informationServer/requestHandler/article/delArticle.py--line: 17--errorfunc: entry()--errorsource: classify=blogClassify.select().where(blogClassify.userName==username,blogClassify.classifyName==article[0]['articleClassify']).get() 
+	file: /usr/local/lib/python3.5/dist-packages/peewee.py--line: 3224--errorfunc: get()--errorsource: % self.sql()) 
+
+[2017-11-23 15:37:58] userLogin.py INFO :用户：wwf 登录
+[2017-11-24 18:34:04] userLogin.py INFO :用户：wwf 登录
+[2017-11-25 15:45:13] userLogin.py INFO :用户：wwf 登录
+[2017-11-25 19:03:17] userLogin.py INFO :用户：wwf 登录
+[2017-11-26 15:00:37] userLogin.py INFO :用户：wwf 登录
+[2017-11-27 15:30:40] userLogin.py INFO :用户：wwf 登录
+[2017-11-30 22:52:20] userLogin.py INFO :用户：wwf 登录
+[2017-12-01 00:08:22] userLogin.py INFO :用户：wwf 登录
+[2017-12-01 18:03:33] userLogin.py INFO :用户：wwf 登录
+[2017-12-02 14:44:25] userLogin.py INFO :用户：wwf 登录
+[2017-12-02 17:36:06] userLogin.py INFO :用户：wwf 登录
+[2017-12-04 16:24:14] userLogin.py INFO :用户：wwf 登录
+[2017-12-05 14:28:09] userLogin.py INFO :用户：wwf 登录
+[2017-12-05 19:02:47] userLogin.py INFO :用户：wwf 登录
+[2017-12-06 19:26:11] userLogin.py INFO :用户：wwf 登录
+[2017-12-08 15:38:22] userLogin.py INFO :用户：wwf 登录
+[2017-12-19 11:37:07] userLogin.py INFO :用户：wwf 登录
+[2017-12-22 21:06:55] userLogin.py INFO :用户：wwf 登录
+[2017-12-23 15:01:35] userLogin.py INFO :用户：wwf 登录
+[2017-12-25 10:50:38] userLogin.py INFO :用户：wwf 登录
+[2017-12-26 14:59:02] userLogin.py INFO :用户：wwf 登录
+[2017-12-26 19:58:06] userLogin.py INFO :用户：wwf 登录
+[2017-12-27 16:20:59] userLogin.py INFO :用户：wwf 登录
+[2017-12-28 20:22:28] userLogin.py INFO :用户：wwf 登录
+[2017-12-29 15:59:08] userLogin.py INFO :用户：wwf 登录
+[2017-12-29 19:57:29] userLogin.py INFO :用户：wwf 登录
+[2017-12-29 20:34:33] userLogin.py INFO :用户：wwf 登录
+[2017-12-30 14:45:19] userLogin.py INFO :用户：wwf 登录
+[2017-12-30 20:12:28] userLogin.py INFO :用户：wwf 登录

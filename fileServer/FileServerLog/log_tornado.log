@@ -1,0 +1,227 @@
+[2017-10-26 23:18:30] responseImg.py WARNING : 	tuple index out of range
+	file: /home/wwf/PyCharmProject/myBlogServer/fileServer/logConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/fileServer/requestHandler/responseImg.py--line: 7--errorfunc: entry()--errorsource: filepath=dirpath+'/saveImgFile/'+args[0]+'/'+args[1]+'/'+args[2] 
+
+[2017-10-26 23:19:30] responseImg.py WARNING : 	tuple index out of range
+	file: /home/wwf/PyCharmProject/myBlogServer/fileServer/logConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/fileServer/requestHandler/responseImg.py--line: 8--errorfunc: entry()--errorsource: filepath=dirpath+'/saveImgFile/'+args[0]+'/'+args[1]+'/'+args[2] 
+
+[2017-10-26 23:21:03] responseImg.py WARNING : 	tuple index out of range
+	file: /home/wwf/PyCharmProject/myBlogServer/fileServer/logConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/fileServer/requestHandler/responseImg.py--line: 8--errorfunc: entry()--errorsource: filepath=dirpath+'/saveImgFile/'+args[0]+'/'+args[1]+'/'+args[2] 
+
+[2017-10-27 12:55:57] responseImg.py WARNING : 	tuple index out of range
+	file: /home/wwf/PyCharmProject/myBlogServer/fileServer/logConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/fileServer/requestHandler/responseImg.py--line: 8--errorfunc: entry()--errorsource: filepath='saveImgFile/'+args[0]+'/'+args[1]+'/'+args[2] 
+
+[2017-10-27 20:47:12] responseImg.py WARNING : 	Can't convert 'tuple' object to str implicitly
+	file: /home/wwf/PyCharmProject/myBlogServer/fileServer/logConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/fileServer/requestHandler/responseImg.py--line: 8--errorfunc: entry()--errorsource: filepath='saveImgFile/'+args[0]+'/'+args[1]+'/'+args[2] 
+
+[2017-10-27 20:47:53] responseImg.py WARNING : 	Can't convert 'tuple' object to str implicitly
+	file: /home/wwf/PyCharmProject/myBlogServer/fileServer/logConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/fileServer/requestHandler/responseImg.py--line: 8--errorfunc: entry()--errorsource: filepath=dirpath+'/saveImgFile/'+args[0]+'/'+args[1]+'/'+args[2] 
+
+[2017-10-27 20:48:48] responseImg.py WARNING : 	Can't convert 'tuple' object to str implicitly
+	file: /home/wwf/PyCharmProject/myBlogServer/fileServer/logConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/fileServer/requestHandler/responseImg.py--line: 8--errorfunc: entry()--errorsource: filepath=dirpath+'/saveImgFile/'+args[0]+'/'+args[1]+'/'+args[2] 
+
+[2017-10-27 20:50:38] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/wwf/PyCharmProject/myBlogServer/fileServer/saveImgFile/ImgFirst/wwf/test'
+	file: /home/wwf/PyCharmProject/myBlogServer/fileServer/logConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/fileServer/requestHandler/responseImg.py--line: 10--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-10-27 20:52:12] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/wwf/PyCharmProject/myBlogServer/saveImgFile/ImgFirst/wwf/test'
+	file: /home/wwf/PyCharmProject/myBlogServer/fileServer/logConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/wwf/PyCharmProject/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-10-29 15:26:13] receiveImg.py INFO :wwf上传图片：mobai.jpg成功
+[2017-10-29 15:27:40] receiveImg.py INFO :wwf上传图片：school.jpg成功
+[2017-10-29 15:33:55] receiveImg.py WARNING :
+	wwf上传非法文件,已被拦截并且移除
+[2017-10-29 15:34:15] receiveImg.py INFO :wwf上传图片：session-.png成功
+[2017-10-29 15:38:24] receiveImg.py WARNING :
+	zyz上传非法文件,已被拦截并且移除
+[2017-10-29 15:38:33] receiveImg.py INFO :zyz上传图片：session_1.png成功
+[2017-11-04 16:48:34] receiveImg.py WARNING :
+	zyz上传非法文件,已被拦截并且移除
+[2017-11-04 16:48:43] receiveImg.py INFO :zyz上传图片：session_1.png成功
+[2017-11-04 16:49:18] receiveImg.py INFO :zyz上传图片：程序执行.jpg成功
+[2017-11-04 21:01:34] receiveImg.py INFO :zyz上传图片：程序执行.jpg成功
+[2017-11-05 15:33:08] receiveImg.py INFO :zyz上传图片：school.jpg成功
+[2017-11-05 18:30:11] receiveImg.py INFO :zyz上传图片：school.jpg成功
+[2017-11-05 20:42:16] receiveImg.py INFO :zyz上传图片：mobai.jpg成功
+[2017-11-05 20:44:17] receiveImg.py WARNING :
+	zyz上传非法文件,已被拦截并且移除
+[2017-11-06 18:12:47] fileOrm.py WARNING :this mysql username is not root
+[2017-11-06 18:20:41] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/test/test/test'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-11-06 18:34:03] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/test/test/test'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-11-06 18:46:11] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/test/test/test'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-11-06 22:16:16] fileServerRequest.py WARNING : 	name 'redis' is not defined
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/fileServerRequest.py--line: 25--errorfunc: diyPost()--errorsource: post(self_request,*args) 
+	file: /home/myBlogServer/fileServer/fileServerRequest.py--line: 62--errorfunc: post()--errorsource: self.finish(ReceiveImg().entry(myImg,sessionId)) 
+	file: /home/myBlogServer/fileServer/requestHandler/receiveImg.py--line: 10--errorfunc: entry()--errorsource: r=redis.Redis(host='127.0.0.1',port=6379) 
+
+[2017-11-06 22:21:33] receiveImg.py INFO :zyz上传图片：IMG_7034.JPG成功
+[2017-11-06 22:44:26] receiveImg.py INFO :zyz上传图片：image.jpg成功
+[2017-11-08 16:47:00] receiveImg.py INFO :zyz上传图片：can't_find_module.png成功
+[2017-11-08 17:13:22] receiveImg.py INFO :zyz上传图片：项目结构.png成功
+[2017-11-11 14:23:27] receiveImg.py INFO :zyz上传图片：gitworkandstage.jpeg成功
+[2017-11-11 14:37:06] receiveImg.py INFO :zyz上传图片：gitworkandstage.jpeg成功
+[2017-11-15 19:20:30] receiveImg.py INFO :zyz上传图片：十转二1.jpg成功
+[2017-11-15 19:28:04] receiveImg.py INFO :zyz上传图片：十转二2.jpg.jpg成功
+[2017-11-15 19:34:35] receiveImg.py INFO :zyz上传图片：单双精度.jpg成功
+[2017-11-18 16:48:57] receiveImg.py INFO :zyz上传图片：utf8与Unicode.png成功
+[2017-11-18 17:05:10] receiveImg.py INFO :zyz上传图片：字符1.png成功
+[2017-11-18 17:05:34] receiveImg.py INFO :zyz上传图片：字符2.png成功
+[2017-11-19 17:18:32] receiveImg.py INFO :zyz上传图片：github合并1.png成功
+[2017-11-19 17:18:39] receiveImg.py INFO :zyz上传图片：合并2.png成功
+[2017-11-19 17:18:54] receiveImg.py INFO :zyz上传图片：2017-11-19 17-17-03屏幕截图.png成功
+[2017-11-19 17:27:58] receiveImg.py INFO :zyz上传图片：2017-11-19 17-17-03屏幕截图.png成功
+[2017-11-19 17:29:56] receiveImg.py INFO :zyz上传图片：合并3.png成功
+[2017-11-20 16:50:46] receiveImg.py INFO :zyz上传图片：数组创建函数.png成功
+[2017-11-20 17:23:29] receiveImg.py INFO :zyz上传图片：NumPy数据类型.png成功
+[2017-11-20 21:11:26] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/test/test/test'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-11-25 16:03:39] receiveImg.py INFO :zyz上传图片：图片1.png成功
+[2017-11-25 16:39:37] receiveImg.py INFO :zyz上传图片：单道批.PNG成功
+[2017-11-25 16:46:16] receiveImg.py INFO :zyz上传图片：分时.PNG成功
+[2017-11-25 18:00:21] receiveImg.py INFO :zyz上传图片：认识操作系统.PNG成功
+[2017-11-25 18:01:38] receiveImg.py INFO :zyz上传图片：分层结构.png成功
+[2017-11-25 18:13:09] receiveImg.py INFO :zyz上传图片：微内核.PNG成功
+[2017-11-25 19:40:41] receiveImg.py INFO :zyz上传图片：一元ufunc.png成功
+[2017-11-25 19:40:47] receiveImg.py INFO :zyz上传图片：2元ufunc.png成功
+[2017-11-26 15:07:34] receiveImg.py INFO :zyz上传图片：编程过程.PNG成功
+[2017-11-26 15:12:54] receiveImg.py INFO :zyz上传图片：作业组织.PNG成功
+[2017-11-26 15:38:22] receiveImg.py INFO :zyz上传图片：调用实现过程.PNG成功
+[2017-11-26 15:51:16] receiveImg.py INFO :zyz上传图片：前趋图.PNG成功
+[2017-11-26 16:04:45] receiveImg.py INFO :zyz上传图片：并发前趋图.PNG成功
+[2017-11-26 16:27:15] receiveImg.py INFO :zyz上传图片：作业进程线程的关系.PNG成功
+[2017-11-26 18:00:40] receiveImg.py INFO :zyz上传图片：进程的三基本状态.PNG成功
+[2017-11-26 18:02:34] receiveImg.py INFO :zyz上传图片：进程调度.PNG成功
+[2017-11-26 18:06:50] receiveImg.py INFO :zyz上传图片：进程状态.PNG成功
+[2017-11-26 18:08:34] receiveImg.py INFO :zyz上传图片：进程5状态.PNG成功
+[2017-11-30 22:52:47] receiveImg.py INFO :zyz上传图片：1.jpg成功
+[2017-11-30 22:52:52] receiveImg.py INFO :zyz上传图片：1.jpg成功
+[2017-11-30 22:52:59] receiveImg.py INFO :zyz上传图片：2.jpg成功
+[2017-11-30 22:53:22] receiveImg.py INFO :zyz上传图片：3.jpg成功
+[2017-11-30 22:53:49] receiveImg.py INFO :zyz上传图片：4.jpg成功
+[2017-11-30 22:54:07] receiveImg.py INFO :zyz上传图片：mmexport1449131476184.jpg成功
+[2017-11-30 22:54:50] receiveImg.py INFO :zyz上传图片：mmexport1449131482204.jpg成功
+[2017-12-04 16:28:15] receiveImg.py INFO :zyz上传图片：分布式app基本架构成功
+[2017-12-06 22:12:39] receiveImg.py INFO :zyz上传图片：img_0086.png成功
+[2017-12-06 22:13:44] receiveImg.py INFO :zyz上传图片：img_0087.png成功
+[2017-12-06 22:14:42] receiveImg.py INFO :zyz上传图片：img_0088.png成功
+[2017-12-06 22:15:00] receiveImg.py INFO :zyz上传图片：img_0089.png成功
+[2017-12-06 22:16:26] receiveImg.py INFO :zyz上传图片：fullsizerender.jpg成功
+[2017-12-06 22:17:06] receiveImg.py INFO :zyz上传图片：img_0092.png成功
+[2017-12-06 22:17:35] receiveImg.py INFO :zyz上传图片：img_0093.png成功
+[2017-12-06 22:18:12] receiveImg.py INFO :zyz上传图片：示例1.jpg成功
+[2017-12-06 22:18:44] receiveImg.py INFO :zyz上传图片：img_0094.png成功
+[2017-12-06 22:23:13] receiveImg.py INFO :zyz上传图片：示例3.jpg成功
+[2017-12-06 22:24:17] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/ImgMyself/zyz/img_009.png'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-12-06 22:24:26] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/ImgMyself/zyz/img_009.png'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-12-06 22:24:56] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/ImgMyself/zyz/img_009.png'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-12-06 22:24:56] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/ImgMyself/zyz/img_00.png'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-12-06 22:24:59] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/ImgMyself/zyz/img_001.png'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-12-06 22:24:59] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/ImgMyself/zyz/img_0010.png'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-12-06 22:25:00] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/ImgMyself/zyz/img_00100.png'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-12-06 22:25:11] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/ImgMyself/zyz/img_0.png'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-12-06 22:25:12] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/ImgMyself/zyz/img_01.png'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-12-06 22:25:12] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/ImgMyself/zyz/img_010.png'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-12-06 22:25:18] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/ImgMyself/zyz/img_009.png'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-12-06 22:25:18] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/ImgMyself/zyz/img_00.png'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-12-06 22:25:18] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/ImgMyself/zyz/img_0.png'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-12-06 22:25:19] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/ImgMyself/zyz/img_01.png'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-12-06 22:25:19] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/ImgMyself/zyz/img_010.png'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-12-06 22:25:46] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/ImgMyself/zyz/img_004.png'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-12-06 22:25:47] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/ImgMyself/zyz/img_04.png'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-12-06 22:25:47] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/ImgMyself/zyz/img_014.png'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-12-06 22:25:54] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/ImgMyself/zyz/img_009.png'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-12-06 22:25:54] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/ImgMyself/zyz/img_00.png'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-12-06 22:25:54] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/ImgMyself/zyz/img_0.png'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-12-06 22:25:55] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/ImgMyself/zyz/img_01.png'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-12-06 22:25:55] responseImg.py WARNING : 	[Errno 2] No such file or directory: '/home/myBlogServer/saveImgFile/ImgMyself/zyz/img_010.png'
+	file: /home/myBlogServer/fileServer/fileLogConfig.py--line: 81--errorfunc: errorMessage()--errorsource: raise error 
+	file: /home/myBlogServer/fileServer/requestHandler/responseImg.py--line: 9--errorfunc: entry()--errorsource: with open(filepath,'rb') as f: 
+
+[2017-12-23 17:38:21] receiveImg.py INFO :zyz上传图片：多重继承图.jpg成功
+[2017-12-26 15:19:59] receiveImg.py INFO :zyz上传图片：django项目结构.png成功
+[2017-12-26 20:45:07] receiveImg.py INFO :zyz上传图片：firstapp目录结构.png成功
